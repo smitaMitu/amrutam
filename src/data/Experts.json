@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 2,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 3,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 4,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 5,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 6,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 7,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  },
+  {
+    "id": 8,
+    "pic": "expert.png",
+    "name": "Dr. Vaishali sharma",
+    "designation": "Ayurveda Practitioner",
+    "education": "(BAMS, MD)",
+    "experience": 52,
+    "Specialist":"Skin Specialist"
+  }
+]

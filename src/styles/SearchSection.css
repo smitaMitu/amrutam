@@ -1,0 +1,18 @@
+.search-section{
+    background: url(../assets/banner-bg.jpg) no-repeat ;
+    background-size: cover;
+}
+.search-section input{
+    padding: 0 2.5rem;
+}
+.searchBtn{
+    background-color: var(--white);
+}
+.searchBtn{
+    border-radius: 12px;
+
+}
+.searchBtn img{
+    width: 36px;
+    max-width: inherit;
+}
