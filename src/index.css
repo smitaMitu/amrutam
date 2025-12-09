@@ -86,7 +86,11 @@ button {
 button:hover {
   border-color: #646cff;
 }
-
+button.transparent {
+  background-color: transparent;
+  border: 1px solid #3A643C80;
+  color:#3A643C;
+}
 /* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

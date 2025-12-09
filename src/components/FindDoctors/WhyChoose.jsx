@@ -42,7 +42,7 @@ const WhyChoose = () => {
 
                     {/* Content */}
                     <div className="w-full md:w-1/2 md:px-[30px]">
-                        <h2 className="md:text-[28px] text-[24px] font-bold text-[#3A643C] mb-1">
+                        <h2 className="md:text-[28px] text-[24px] font-semibold text-[#3A643C] mb-1">
                             {row.title}
                         </h2>
                         <p className="text-[#666666] text-[18px]">{row.desc}</p>
