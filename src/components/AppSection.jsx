@@ -5,17 +5,17 @@ import AppStore from "../assets/app-store.png";
 import { Link } from 'react-router-dom';
 const AppSection = () => {
     return (
-        <div className='py-[30px]'>
-            <div class="container mx-auto p-4 sm:p-8">
+        <div className='py-[30px] border-t-2 border-t-[#DCD8CD] mt-4 '>
+            <div className="container mx-auto p-4 sm:p-8">
 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
-                    <div class=" order-2 lg:order-1">
-                        <h2 class="text-[20px] md:text-[32px] font-bold text-gray-900 mb-4 md:leading-[50px]">Download Amrutam Ayurveda App Now</h2>
-                        <p class="text-gray-700 mb-4">
+                    <div className=" order-2 lg:order-1">
+                        <h2 className="text-[20px] md:text-[32px] font-bold text-gray-900 mb-4 md:leading-[50px]">Download Amrutam Ayurveda App Now</h2>
+                        <p className="text-gray-700 mb-4">
                             The Amrutam Ayurveda App is your one-stop app for all things Ayurveda! Apart from mimicking the website, the app has added benefits
                         </p>
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <ul className="list-disc list-inside text-gray-600 space-y-2">
                             <li>Feature 1: Detail A</li>
                             <li>Feature 2: Detail B</li>
                             <li>Feature 3: Detail C</li>
@@ -27,9 +27,9 @@ const AppSection = () => {
                         </div>
                     </div>
 
-                    <div class="order-1 lg:order-2 flex justify-end">
+                    <div className="order-1 lg:order-2 flex justify-end">
                         <img src={Img} alt="Product Image on Right"
-                            class="w-full h-auto max-h-96 lg:max-h-full object-cover md:w-[500px]" />
+                            className="w-full h-auto max-h-96 lg:max-h-full object-cover md:w-[500px]" />
                     </div>
 
                 </div>

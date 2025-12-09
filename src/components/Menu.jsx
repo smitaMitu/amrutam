@@ -11,7 +11,7 @@ const Menu = () => {
     <div className='menu flex gap-8 capitalize me-9 items-start p-5 md:items-center flex-col md:flex-row' >
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/find-doctors"}>find doctors</NavLink>
-        <NavLink to={"/lab-tests"}>Lab Tests</NavLink>
+        <NavLink to={"/faq"}>FAQ</NavLink>
         <NavLink to={"/shop"}>Shop</NavLink>
         <NavLink to={"/forum"}>Forum</NavLink>
         <NavLink to={"/about"}>About Us</NavLink>

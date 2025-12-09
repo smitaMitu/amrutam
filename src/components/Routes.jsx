@@ -10,6 +10,7 @@ import FindDoctors from '../pages/FindDoctors'
 import Forum from '../pages/Forum'
 import Ingredients from '../pages/Ingredients'
 import ForumPage from '../pages/ForumPage'
+import FaqPage from '../pages/FaqPage'
 
 
 const routes = createBrowserRouter([
@@ -44,6 +45,10 @@ const routes = createBrowserRouter([
             {
                 path: "/forum",
                 element: <ForumPage />
+            },
+            {
+                path: "/faq",
+                element: <FaqPage />
             },
 
         ]

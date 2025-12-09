@@ -1,45 +1,3 @@
-// import { FaPhoneAlt } from "react-icons/fa";
-// import { LuPhone } from "react-icons/lu";
-// import "../styles/Navbar.css";
-// import Logo from "../assets/logo.png";
-// import { FaBars } from "react-icons/fa6";
-// import { BsWallet2 } from "react-icons/bs";
-// import { IoCartOutline } from "react-icons/io5";
-// import Menu from "./Menu";
-// const Navbar = () => {
-//   return (
-//     <div className='navbar w-full sticky md:relative top-0 bg-[var(--bg-pink)] z-10'>
-//       <div className='navbar-top hidden md:flex'>
-//         <div className='container flex justify-end gap-[60px] items-center py-2! p-0'>
-//           <p className="text-white text-[20px]">Your first 5 minutes instant call is free.</p>
-//           <button className="nav-top-btn"><FaPhoneAlt /> Try Instant Free call Now</button>
-//         </div>
-//       </div>
-//       <div className="flex justify-between md:justify-center py-5 px-3 items-center relative">
-//         <div className="flex text-[#3A643C] text-[24px] md:hidden">
-//           <FaBars />
-//         </div>
-//         <p className="text-[#3A643C] text-[20px] md:flex items-center absolute left-4 top-7 gap-2 hidden "><LuPhone />+91 9826352321</p>
-//         <div className="md:m-auto w-full flex justify-end items-center md:justify-center">
-//           <img src={Logo} alt="Amrutam" className="w-[130px] me-2 md:me-0 md:w-auto" />
-//           <div className="md:hidden flex gap-1 items-center">
-//             <div className="w-7 flex justify-center"><BsWallet2 className="text-xl text-[#3A643C]" /></div>
-//             <div className="w-7 flex justify-center"><IoCartOutline className="text-xl text-[#3A643C]" /></div>
-//             <button className="rounded-full">Login</button>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="w-full hidden md:flex pb-3">
-//         <div className="container flex justify-end">
-//           <Menu />
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
 import React, { useState } from 'react'; // 1. Import useState
 import { FaPhoneAlt } from "react-icons/fa";
 import { LuPhone } from "react-icons/lu";
@@ -107,25 +65,15 @@ const Navbar = () => {
             {/* Renders ONLY on small screens (md:hidden) when isMenuOpen is true */}
             {isMenuOpen && (
                 <div className="md:hidden w-full bg-white shadow-xl absolute top-full left-0 min-h-[100dvh]">
-                    {/* You can either render your desktop Menu component here, 
-                        or a simpler mobile-specific menu structure */}
-                    <Menu isMobile={true} />
                     
-                    {/* Example of mobile-specific content if Menu component isn't suitable */}
-                    {/* <div className="p-4 border-t">
-                        <ul className="space-y-2">
-                            <li><a href="#" className="block py-2 text-gray-800">Home</a></li>
-                            <li><a href="#" className="block py-2 text-gray-800">Shop</a></li>
-                            <li><a href="#" className="block py-2 text-gray-800">Blog</a></li>
-                            <li className="md:hidden"><a href="#" className="block py-2 text-gray-800">Login / Sign Up</a></li>
-                        </ul>
-                    </div> */}
+                    <Menu isMobile={true} />                    
+                    
                 </div>
             )}
 
             {/* 6. Desktop Menu - Hidden on Mobile */}
-            <div className="w-full hidden md:flex pb-3">
-                <div className="container flex justify-end">
+            <div className="w-full hidden md:flex">
+                <div className="container flex justify-end p-0!">
                     <Menu />
                 </div>
             </div>
