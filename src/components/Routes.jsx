@@ -9,6 +9,7 @@ import Shop from '../pages/Shop'
 import FindDoctors from '../pages/FindDoctors'
 import Forum from '../pages/Forum'
 import Ingredients from '../pages/Ingredients'
+import ForumPage from '../pages/ForumPage'
 
 
 const routes = createBrowserRouter([
@@ -39,6 +40,10 @@ const routes = createBrowserRouter([
             {
                 path: "/ingredients",
                 element: <Ingredients />
+            },
+            {
+                path: "/forum",
+                element: <ForumPage />
             },
 
         ]
