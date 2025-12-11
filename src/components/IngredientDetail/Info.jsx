@@ -19,6 +19,7 @@ const Info = () => {
         <div className='flex flex-col gap-4 font-(family-name:--ff)!'>
             <h1 className='md:text-[40px]! text-[20px]! text-[var(--clr-neutral-1000)] leading-[30px]! md:leading-[60px]! font-bold'>Citrak - Plumbago zeylancia  <br />
                 (Sanskrit - चित्रक)</h1>
+           
             <p className='md:text-[24px] text-[16px] text-[#161616] leading-7'>Chitrak, also known as Ceylon Leadwort or Doctorbush, is a powerful Ayurvedic herb valued for its ability to improve digestion, reduce inflammation, and detoxify the body. It is great for boosting metabolism, enhancing skin health, and easing joint pain.</p>
             <div className='mb-4'>
                 <Heading heading={"Why Chitrak ?"} />
